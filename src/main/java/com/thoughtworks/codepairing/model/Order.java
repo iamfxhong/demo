@@ -1,5 +1,13 @@
 package com.thoughtworks.codepairing.model;
 
+/**
+ * 订单实体类 Order
+ * totalPrice double
+ * loyaltyPoints int
+ * Order(double totalPrice, int loyaltyPointsEarned)
+ * getTotalPrice() getLoyaltyPoints()
+ * toString()
+ * */
 public class Order {
     private double totalPrice;
     private int loyaltyPoints;

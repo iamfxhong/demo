@@ -3,6 +3,14 @@ package com.thoughtworks.codepairing.model;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * 购物车 ShoppingCart
+ * List<Product> products
+ * customer
+ * ShoppingCart(Customer customer, List<Product> products)
+ * addProduct(Product product)
+ * checkout()
+ */
 public class ShoppingCart {
     private List<Product> products;
     private Customer customer;

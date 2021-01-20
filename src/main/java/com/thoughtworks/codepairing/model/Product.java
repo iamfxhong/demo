@@ -1,5 +1,15 @@
 package com.thoughtworks.codepairing.model;
 
+/**
+ * 商品类 Product
+ * final double price //final变量初始化值可以直接赋值或者通过构造函数进行初始化
+ * final String productCode
+ * final String name
+ * Product(double price, String productCode, String name)
+ * getPrice()
+ * getProductCode()
+ * getName()
+ */
 public class Product {
     private final double price;
     private final String productCode;
